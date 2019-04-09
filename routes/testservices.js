@@ -8,7 +8,9 @@ exports.sayHelloTest = function(req, res) {
    
     console.log('Reaching service for testing container');
 
-    res.send('You have reached the SERVICE :)');
+    //res.send('You have reached the SERVICE :)');
+    res.send(JSON.stringify('Reaching service for testing container'));
+
 };
 
 exports.landPage = function(req, res) {
